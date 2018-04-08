@@ -96,6 +96,12 @@ Os nomes de arquivos/diretórios ou extensões de arquivos listados no arquivo *
 
 	git commit meuarquivo.txt -m "minha mensagem de commit"
 
+### Remover Commit
+
+##### Remover commit do **Staged Area**
+
+	git reset --hard HEAD~1
+
 ### Remover arquivo/diretório
 
 ##### Remover arquivo
